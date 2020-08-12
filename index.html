@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="shortcut icon" href="icon.png">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<title>Piedra, papel o tijera.</title>
+		<style type="text/css">
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				height: 100vh;
+				font-family: 'Montserrat';
+				font-weight: 400;
+				color: white;
+				background-color: #1B1B1B;
+				margin: 0;
+			}
+
+			img {
+				width: 150px;
+			}
+
+			h1 {
+				margin-bottom: 0;
+			}
+
+			.txt-dev {
+				font-size: 12px;
+			}
+
+			.res {
+				color: orange;
+			}
+
+			.new-game {
+				margin-top: 20px;
+				background-color: #123ea1;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				border-bottom: 3px solid #0D2E79;
+				border-radius: 3px;
+				cursor: pointer;
+			}
+
+			.new-game:hover {
+				background-color: #1346B8;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="icon.png">
+		<h1>Piedra, papel o tijera</h1>
+		<p class="txt-dev"><i>Desarrollado por Frandeveloper</i></p>
+		<script type="text/javascript" src="piedra-papel-tijera.js"></script>
+		<input class="new-game" type="button" value="Volver a jugar" onclick="location.reload()"/>
+	</body>
+</html>
